@@ -62,6 +62,7 @@ Promise.all([Promise1,Promise2,Promise3]).then((data)=>
 		d2.textContent = (ans/1000).toFixed(3);
 
 
+		console.log()
 		r1.appendChild(d1);
 		r1.appendChild(d2);
 		tb.appendChild(r1);
